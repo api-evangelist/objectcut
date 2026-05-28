@@ -1,0 +1,32 @@
+aid: objectcut
+name: ObjectCut
+description: "Image Background removal"
+url: https://objectcut.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Photography"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Photography
+  - Public APIs
+apis:
+  - name: ObjectCut
+    description: "Image Background removal"
+    humanURL: https://objectcut.com/
+    baseURL: https://objectcut.com/
+    tags:
+      - Photography
+    properties:
+      - type: Documentation
+        url: https://objectcut.com/
+common:
+  - type: Website
+    url: https://objectcut.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
